@@ -11,7 +11,7 @@ The filtering is centralised, and all sensors operate on shared information from
 
 The codebase is a PMB implementation with the Poisson elements intensity set to zero meaning that it is MB.
 
-This is the code base used for the research and results used in the paper: *Add fusion link here if it gets accepted and published.*
+This is the code base used for the research and results used in the paper: *Add paper link here if it gets accepted and published.*
 
 
 
