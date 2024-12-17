@@ -3,11 +3,11 @@ Sensor management code for non-myopic, multi-sensor, multi-Bernoulli GOSPA drive
 
 This code base is for the centralised approachg to multi-sensor sensor management for multi-Bernoulli (MB) filtering.
 
-The cost function used to drive the decision making is an upper bound on the mean square generalised optimal sub pattern assignment (GOSPA) error and the implementation is based on a Monte Carlo Tree Search (MCTS), adapted for the partiallyobservable nature of sensor management.
+The cost function used to drive the decision making is an upper bound on the mean square generalised optimal sub pattern assignment (GOSPA) error and the implementation is based on a Monte Carlo Tree Search (MCTS), adapted for the partially observable nature of sensor management.
 
-Each sensor (S1, S2) has the ability to conduct its own decision making, independent of the other andthe ability to share information to a centralised decision making module which jointly optimises the actionstaken by the sensors.
+Each sensor (S1, S2) has the ability to conduct its own decision making, independent of the other and the ability to share information to a centralised decision making module which jointly optimises the actions taken by the sensors.
 
-The filtering is centralised, and all sensors operate on shared information from a centralised, multi-Bernoullifiltering loop, with a sequential update step, to avoid unnecessary information loss about the origin ofthe measurements recieved by either sensor.
+The filtering is centralised, and all sensors operate on shared information from a centralised, multi-Bernoulli filtering loop, with a sequential update step, to avoid unnecessary information loss about the origin ofthe measurements recieved by either sensor.
 
 The codebase is a PMB implementation with the Poisson elements intensity set to zero meaning that it is MB.
 
