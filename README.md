@@ -19,8 +19,10 @@ This is the code base used for the research and results used in the paper: *Add 
 
 The predecessor papers to this codebase are: 
 
-ISIF Fusion 2023 - https://ieeexplore.ieee.org/abstract/document/10224220 
+ISIF Fusion 2023 - https://ieeexplore.ieee.org/abstract/document/10224220
+
 IEEE TAES 2024 - https://ieeexplore.ieee.org/abstract/document/10571358 or https://arxiv.org/abs/2405.05815
+
 MFI 2024 - https://ieeexplore.ieee.org/abstract/document/10705781
 
 Google Scholar:  https://scholar.google.com/citations?user=hgzQhO8AAAAJ&hl=en
